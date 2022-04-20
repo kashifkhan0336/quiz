@@ -1,0 +1,176 @@
+.wrapper {
+  width: 100%;
+  position: relative;
+}
+
+.active {
+  border: 3px solid #6f2da8;
+}
+
+.show {
+  display: block !important;
+}
+
+.modal-wrapper {
+  display: none;
+}
+
+.overlay {
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  opacity: 0.5;
+  position: absolute;
+  z-index: 2;
+}
+
+.modal {
+  position: absolute;
+  z-index: 3;
+  background-color: white;
+  padding: 2rem;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+.quiz-container {
+  max-width: 1200px;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+.quiz {
+  font-family: inherit;
+  font-size: 1.5rem;
+  background-color: white;
+  font-weight: bold;
+  width: 100%;
+  padding: 3rem 2rem;
+  box-shadow: 2px 2px 15px rgba(128, 128, 128, 0.514);
+  margin-bottom: 1rem;
+  cursor: pointer;
+  transition: transform 200ms;
+  -webkit-transition: transform 200ms;
+  -moz-transition: transform 200ms;
+  -ms-transition: transform 200ms;
+  -o-transition: transform 200ms;
+}
+
+.quiz:hover {
+  transform: scale(1.02);
+  -webkit-transform: scale(1.02);
+  -moz-transform: scale(1.02);
+  -ms-transform: scale(1.02);
+  -o-transform: scale(1.02);
+}
+
+footer {
+  background-color: #6f2da8;
+  width: 100%;
+  padding: 2rem;
+  position: fixed;
+  bottom: 0%;
+  text-align: center;
+}
+
+footer .btn {
+  padding: 1em 5em;
+  font-family: inherit;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  border: 0;
+}
+
+footer .btn:enabled:hover {
+  background-color: lightgray;
+}
+
+.purple {
+  border: 3px solid #6f2da8;
+}
+.modal {
+  width: 500px;
+  padding: 3rem;
+  background-color: white;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  box-shadow: 2px 2px 15px gray;
+  max-width: 500px;
+}
+
+@media (max-width: 500px) {
+  .modal {
+    padding: 3rem 2rem;
+  }
+}
+
+@media (max-width: 350px) {
+  .modal {
+    padding: 3rem 1rem;
+  }
+  .wrapper {
+    padding: 0.5rem;
+  }
+}
+
+input {
+  display: block;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  height: 3.125rem;
+  padding: 1em;
+  font-size: 1.2rem;
+  outline: none;
+  margin-bottom: 1.5rem;
+  border: 1px solid lightgray;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+  border-color: #551a8b;
+}
+
+.modal-btn {
+  display: block;
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 0.8em;
+  width: 100%;
+  border: 1px solid #6f2da8;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: #6f2da8;
+  transition: all 200ms;
+  color: white;
+  -webkit-transition: all 200ms;
+  -moz-transition: all 200ms;
+  -ms-transition: all 200ms;
+  -o-transition: all 200ms;
+}
+
+.modal-btn:hover {
+  background-color: #7851a9;
+  border-color: #551a8b;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}

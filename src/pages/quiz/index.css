@@ -1,0 +1,75 @@
+.header {
+  padding: 3rem;
+}
+h1 {
+  color: #6f2da8;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 300;
+}
+.questions-wrapper {
+  background-image: linear-gradient(to bottom right, #7e22ce, #a855f7);
+}
+.questions-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.ques {
+  margin: 2.5rem auto;
+}
+
+.question {
+  font-size: 1.5rem;
+  color: white;
+}
+
+.choices {
+  margin: 1rem auto;
+}
+li {
+  margin: 0.5rem auto;
+  font-size: 1.2rem;
+  color: #be7bfd;
+}
+#timer {
+  display: inline-block;
+  position: fixed;
+  right: 2rem;
+  top: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  background-color: #f3f4f6;
+  color: #6f2da8;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  border-radius: 0.25rem;
+  border-width: 2px;
+  border-color: #6f2da8;
+  border-style: solid;
+}
+
+.btn-container {
+  text-align: center;
+}
+
+.submit-btn {
+  display: inline-block;
+  padding: 1em 5em;
+  font-family: inherit;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  border: 0;
+  color: #6f2da8;
+  background-color: white;
+  margin-top: 1rem;
+}
+
+.submit-btn:hover {
+  background-color: lightgray;
+}
